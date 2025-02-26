@@ -41,6 +41,7 @@ test.describe('Home', () => {
     test('Verify home link is enabled using text ans CSS selector', async ({ page }) => {
         //open urL
         await page.goto("https://practice.sdetunicorns.com");
+        //close
 
         //find the home text
          const homeText = await page.locator('#zak-primary-menu >> text="Home"')
