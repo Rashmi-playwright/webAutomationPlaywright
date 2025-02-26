@@ -42,6 +42,7 @@ test.describe('Home', () => {
         //open urL
         await page.goto("https://practice.sdetunicorns.com");
         //close
+        //close for checking
 
         //find the home text
          const homeText = await page.locator('#zak-primary-menu >> text="Home"')
